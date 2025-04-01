@@ -5,26 +5,26 @@ import './NavBar.css';
 
 function NavBar() {
   return (
-    <nav className='menu'>
+    <nav className="menu">
       <NavLink
-        className='menu__link'
-        activeClassName='menu__link_active'
+        className="menu__link"
+        activeClassName="menu__link_active"
         exact
-        to='/'
+        to="/"
       >
         Home
       </NavLink>
       <NavLink
-        className='menu__link'
-        activeClassName='menu__link_active'
-        to='/reviews'
+        className="menu__link"
+        activeClassName="menu__link_active"
+        to="/reviews"
       >
         Emoji
       </NavLink>
       <NavLink
-        className='menu__link'
-        activeClassName='menu__link_active'
-        to='/about-me'
+        className="menu__link"
+        activeClassName="menu__link_active"
+        to="/about-me"
       >
         About
       </NavLink>

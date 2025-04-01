@@ -1,26 +1,26 @@
 .menu {
-    /* position: absolute;
+  /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
 .menu__link {
-    color: #9CBBFF;
-    text-decoration: none;
-    font-size: 22px;
-    line-height: 30px;
-    margin-right: 5px;
+  color: #9cbbff;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 30px;
+  margin-right: 5px;
 }
 
 .menu__link_active {
-    color: #437DFF;
-    pointer-events: none;
+  color: #437dff;
+  pointer-events: none;
 }
 
 .menu__link:last-of-type {
-    margin-right: 0;
+  margin-right: 0;
 }
